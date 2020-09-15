@@ -7,7 +7,7 @@ You're creating an app from scratch, so fork and clone this README, and start wi
 **Deliverables**
 - Create a `Pet` model with the following attributes:
   - `name` - string
-  - `species` - string of either "dog", "cat" or "bird"
+  - `species` - string (stick to "dog", "cat" and "bird" for now)
   - `year_of_birth` - integer 
   - `good_with_kids?` - boolean
   
