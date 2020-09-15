@@ -2,14 +2,14 @@
 
 Congratulations!  You've just been hired by Purrfect Pets as their new web developer.  It's your job to create a website where prospective pet parents can see all the adorable animals waiting to be adopted.
 
-** Deliverables **
+**Deliverables**
 - Create a `Pet` model with the following attributes:
   - `name` - string
   - `species` - string of either "dog", "cat" or "bird"
   - `year_of_birth` - integer 
   - `good_with_kids?` - boolean
   
-* Make sure your routes are following REST conventions! * 
+*Make sure your routes are following REST conventions!* 
 - Home page at `/` welcoming people to your pet store
 - Create an `index` page at `/pets` that lists all animals
 - Each animal should be a link to that pet's detail page
@@ -20,6 +20,6 @@ Congratulations!  You've just been hired by Purrfect Pets as their new web devel
   
  - Create pages at `/dogs`, `/cats` and `/birds` listing the respective animals.  (Hint:  Do you really need another view here, or can you use something you've already built?)
  
- ** Bonus **
+ **Bonus**
   - Add a column to the database to store a url to the picture of an animal.  Show the picture on the pet's detail page
   - Provide links on your index page to sort by age or alphabetically by name.  Don't make a new route:  use get parameters to let your user choose how to sort (hint: `?sort_by=name` or `?sort_by=age`).  You'll need to Google!
