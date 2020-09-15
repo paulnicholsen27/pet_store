@@ -2,6 +2,8 @@
 
 Congratulations!  You've just been hired by Purrfect Pets as their new web developer.  It's your job to create a website where prospective pet parents can see all the adorable animals waiting to be adopted.
 
+You're creating an app from scratch, so fork and clone this README, and start with `rails new {{app_name}} -G` (the `-G` keeps rails from making a new Git repo, since you're already cloning an existing one)
+
 **Deliverables**
 - Create a `Pet` model with the following attributes:
   - `name` - string
@@ -9,7 +11,7 @@ Congratulations!  You've just been hired by Purrfect Pets as their new web devel
   - `year_of_birth` - integer 
   - `good_with_kids?` - boolean
   
-*Make sure your routes are following REST conventions!* 
+*Make sure your routes are following RESTful conventions!* 
 - Home page at `/` welcoming people to your pet store
 - Create an `index` page at `/pets` that lists all animals
 - Each animal should be a link to that pet's detail page
