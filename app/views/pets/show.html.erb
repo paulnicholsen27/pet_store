@@ -1,0 +1,6 @@
+<h1>Pet Detail Page</h1>
+
+<div>Name: <%= @pet.name %></div>
+<div>Good With Kids? <%= @pet.good_with_kids %></div>
+
+<%= button_to "Toggle Good With Kids", toggle_path(@pet.id) %>

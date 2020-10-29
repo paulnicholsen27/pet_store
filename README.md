@@ -25,3 +25,23 @@ You're creating an app from scratch, so fork and clone this README, and start wi
  **Bonus**
   - Add a column to the database to store a url to the picture of an animal.  Show the picture on the pet's detail page
   - Provide links on your index page to sort by age or alphabetically by name.  Don't make a new route:  use get parameters to let your user choose how to sort (hint: `?sort_by=name` or `?sort_by=age`).  You'll need to Google!
+
+
+## Questions
+- Creating a new resource - huh?
+- forms (action, method)
+- how to set up correct inheritance
+- controller methods
+- params
+    - when/how to use?
+      - form params
+      - url params
+      - 'get' params
+- authenticity token
+- using routes effectively
+
+- find_by : where :: find : select
+  ^ first    ^^array of all matches
+
+
+- csrf: cross site request forgery protection

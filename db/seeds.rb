@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+20.times do
+
+    @pets = Pet.create(name: Faker::TvShows::BojackHorseman.unique.character,
+               good_with_kids: [true, false].sample,
+               species: ["cat", "dog", "bird"].sample,
+               year_of_birth: (2000...2020).to_a.sample)
+end
